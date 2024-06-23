@@ -14,7 +14,7 @@ const scroll = new SmoothScroll('a[href*="#"]', {
     speedAsDuration: true,
   });
 ```
-## Step 4 : Use the ID to href
+## Step 4 : Call the Section with href
 ```html
 <section id="home">...</section>
 <section id="about">...</section>
