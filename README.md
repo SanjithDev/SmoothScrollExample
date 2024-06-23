@@ -1,5 +1,5 @@
 # Smooth Scroll Example
-First Create a react project if you haven't did already or use existing project
+Create a React project if you haven't already, or use an existing project.
 
 ## Step 1 : Install the Smooth Scroll Package
 `npm install smooth-scroll`
@@ -8,13 +8,16 @@ First Create a react project if you haven't did already or use existing project
 `import SmoothScroll from 'smooth-scroll';`
 
 ## Step 3 : Initialize the Smooth Scroll in your Component
+Insert this code within your parent function before the return statement.
+
 ```jsx
 const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 800,
     speedAsDuration: true,
   });
 ```
-## Step 4 : Call the Section with href
+## Step 4 : Call the section using its href attribute.
+
 ```html
 <section id="home">...</section>
 <section id="about">...</section>
@@ -26,4 +29,4 @@ const scroll = new SmoothScroll('a[href*="#"]', {
 
 ```
 
-### Note : calling the section via name="" won't work for this package.
+### Note : Using `name=""` to call the section will not work with this package.
