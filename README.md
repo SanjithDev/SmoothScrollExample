@@ -26,4 +26,4 @@ const scroll = new SmoothScroll('a[href*="#"]', {
 
 ```
 
-### Note : only href="#" will work for this package. name="" won't work
+### Note : calling the section via name="" won't work for this package.
