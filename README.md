@@ -1,4 +1,4 @@
-# This Example will help you configure Smooth Scroll
+# Smooth Scroll Example
 First Create a react project if you haven't did already or use existing project
 
 ## Step 1 : Install the Smooth Scroll Package
